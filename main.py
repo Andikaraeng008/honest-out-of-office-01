@@ -2,7 +2,7 @@
 honest auto-reply, where the most truthful one wins.
 
 Rule: entry.txt has to be UTF-8 text between 1 and 200 characters
-long (the line below is 176 characters).
+long (the line below is 165 characters).
 It writes to $MAKEFUN_OUTPUT_DIR (falling back to /output) and
 never to an output/ folder inside the repo, since the grader
 mounts that folder read-only.
@@ -11,7 +11,7 @@ mounts that folder read-only.
 import os
 
 # The twist: the reply promises an answer only "eventually", after 1,214 unread emails, patiently and gratefully.
-LINE = "Thank you for writing — I'm out until Monday, and your email joins 1,214 unread messages I will answer in the order received, which means patiently, gratefully, and eventually."
+LINE = "Thank you for reaching out — I'm away until Monday, and your message is safely filed among 312 others I have not read, each one cherished, none of them answered yet."
 
 
 def main() -> None:
